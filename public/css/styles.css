@@ -1,0 +1,104 @@
+html {
+  background-color: white;
+  background-image: -webkit-linear-gradient(65deg, #A8DF65 50%, #E4E9FD 50%);
+  min-height: 750px;
+  font-family: 'helvetica neue';
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210814/pngtree-home-office-portrait-remote-data-explanation-image_762345.jpg");
+  /* background-image: url("https://media.istockphoto.com/photos/cropped-image-of-beautiful-woman-working-as-secretary-typing-on-picture-id1214852598?k=20&m=1214852598&s=170667a&w=0&h=k4XcjtbnASqRkH5WwWKp6dIJ2BQo6gUZWghe1P16KvE="); */
+  /* background-image: url("img.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* A8DF65
+  7FDBDA */
+
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #A8DF65;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+  border-bottom: 0;
+}
+
+input:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: #A8DF65;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form.item {
+  text-align: center;
+  margin-left: 20px;
+}
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A8DF65;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #A8DF65;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
