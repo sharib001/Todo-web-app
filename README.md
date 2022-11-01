@@ -2,4 +2,4 @@
 
 <a href="https://morning-fortress-51584.herokuapp.com/">Visit W3Schools.com!</a>
 
-<img src="readme.png" alt="Demo-pic-of-Webapp" width="800" height="550">
+<img src="/readme.png" alt="Demo-pic-of-Webapp" width="800" height="550">
